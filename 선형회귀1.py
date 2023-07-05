@@ -44,4 +44,4 @@ print(reg.intercept_) # y절편
 
 # 선형회귀의 그래프 식
 print("선형회귀 그래프 식")
-print(f"y = {reg.coef_}X + {reg.intercept_}")
+print(f"y = {reg.coef_[0]}X + {reg.intercept_}")
