@@ -1,0 +1,19 @@
+구글에 검색
+tmdb 5000
+
+kaggle에서 가공해서 데이터 제공
+
+code -> most vote
+에서 데이터 가져옴
+
+1. 인구 통계학적 필터링(Demographic Filtering)
+많은 사람들이 일반적으로 좋아하는 아이템 추천
+2. 컨텐츠 기반 필터링(Content Based Filtering)
+특정 아이템 기반으로 유사 아이템 추천
+3. 협업 필터링(Collaborative Filtering)
+비슷한 취향을 가진 사람들끼리 매칭시켜서 추천
+영화가 가진 다양한 요소들을 필요없이
+A사람이 a,b,c 영화 좋아하고
+B사람이 a,b,c 영화를 좋아한다면
+A사람이 d를 좋아하고 B사람이 d를 보지 않았다면
+B사람에게 d를 추천
